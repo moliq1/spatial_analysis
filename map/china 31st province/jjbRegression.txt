@@ -1,0 +1,388 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fprq12\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 System;}}
+\viewkind4\uc1\pard\lang1033\f0\fs24 
+\par \b \ul Regression\ulnone \b0 
+\par \b \ul SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES ESTIMATION \ulnone \b0 
+\par Data set            : \b jjb \b0 
+\par Dependent Variable  :\b     LNINCOME \b0  Number of Observations:   31
+\par Mean dependent var  :     16.4342  Number of Variables   :    7
+\par S.D. dependent var  :     1.20927  Degrees of Freedom    :   24 
+ 
+ 
+\par 
+ 
+\par R-squared           :    0.783676  F-statistic           :     14.4908
+\par Adjusted R-squared  :    0.729595  Prob(F-statistic)     :6.12325e-007
+\par Sum squared residual:     9.80648  Log likelihood        :    -26.1475
+\par Sigma-square        :    0.408604  Akaike info criterion :     66.2949
+\par S.E. of regression  :    0.639221  Schwarz criterion     :     76.3329
+\par Sigma-square ML     :    0.316338
+\par S.E of regression ML:     0.56244
+
+ 
+ 
+\par -----------------------------------------------------------------------
+\par \b     Variable    Coefficient     Std.Error    t-Statistic   Probability \b0 
+\par -----------------------------------------------------------------------
+\par     CONSTANT      3.765302       6.992846      0.5384505    0.5952253
+\par        LNGDP    0.03308886      0.5470781     0.06048288    0.9522706
+\par       LNROAD    0.09111268      0.2903337      0.3138205    0.7563697
+\par     LNPEOPLE     0.5057114      0.7079299      0.7143524    0.4819002
+\par      LNAGENT     0.9255921      0.4383292       2.111637    0.0453178
+\par      LNHOTEL   -0.09641664      0.9076365     -0.1062283    0.9162825
+\par     LNNUMBER    0.09524011      0.4335017      0.2196995    0.8279630
+\par -----------------------------------------------------------------------
+\par 
+ 
+\par 
+\par \bREGRESSION DIAGNOSTICS \b0 
+\par MULTICOLLINEARITY CONDITION NUMBER   216.327803
+\par TEST ON NORMALITY OF ERRORS
+\par TEST                  DF          VALUE            PROB
+\par Jarque-Bera            2           3.808232        0.1489543
+\par 
+ 
+ 
+\par \b DIAGNOSTICS FOR HETEROSKEDASTICITY \b0 
+\par RANDOM COEFFICIENTS
+\par TEST                  DF          VALUE            PROB
+\par Breusch-Pagan test     6           18.59499        0.0049052
+\par Koenker-Bassett test   6           10.00523        0.1244320
+\par SPECIFICATION ROBUST TEST
+\par TEST                  DF          VALUE            PROB
+\par White                 27           28.57336        0.3818856
+\par 
+ 
+ 
+\par \b \ul DIAGNOSTICS FOR SPATIAL DEPENDENCE \ulnone \b0 
+\par FOR WEIGHT MATRIX : jjb.gal
+   (row-standardized weights)
+\par \b TEST                          MI/DF      VALUE          PROB \b0 
+\par Moran's I (error)           0.148344     N/A            N/A
+\par Lagrange Multiplier (lag)       1        2.1627423      0.1413922
+\par Robust LM (lag)                 1        0.8402875      0.3593146
+\par Lagrange Multiplier (error)     1        1.3963048      0.2373433
+\par Robust LM (error)               1        0.0738501      0.7858114
+\par Lagrange Multiplier (SARMA)     2        2.2365924      0.3268362
+\par ========================= END OF REPORT ==============================
+\par 
+ 
+ 
+\par \b\f1\fs20
+\par }{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fprq12\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 System;}}
+\viewkind4\uc1\pard\lang1033\f0\fs24 
+\par \b \ul Regression\ulnone \b0 
+\par \b \ul SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES ESTIMATION \ulnone \b0 
+\par Data set            : \b jjb \b0 
+\par Dependent Variable  :\b     LNINCOME \b0  Number of Observations:   31
+\par Mean dependent var  :     16.4342  Number of Variables   :    7
+\par S.D. dependent var  :     1.20927  Degrees of Freedom    :   24 
+ 
+ 
+\par 
+ 
+\par R-squared           :    0.783676  F-statistic           :     14.4908
+\par Adjusted R-squared  :    0.729595  Prob(F-statistic)     :6.12325e-007
+\par Sum squared residual:     9.80648  Log likelihood        :    -26.1475
+\par Sigma-square        :    0.408604  Akaike info criterion :     66.2949
+\par S.E. of regression  :    0.639221  Schwarz criterion     :     76.3329
+\par Sigma-square ML     :    0.316338
+\par S.E of regression ML:     0.56244
+
+ 
+ 
+\par -----------------------------------------------------------------------
+\par \b     Variable    Coefficient     Std.Error    t-Statistic   Probability \b0 
+\par -----------------------------------------------------------------------
+\par     CONSTANT      3.765301       6.992846      0.5384504    0.5952253
+\par        LNGDP    0.03308897      0.5470781     0.06048309    0.9522706
+\par       LNROAD     0.0911127      0.2903338      0.3138206    0.7563697
+\par     LNPEOPLE     0.5057113      0.7079298      0.7143523    0.4819002
+\par      LNAGENT     0.9255921      0.4383292       2.111637    0.0453178
+\par      LNHOTEL   -0.09641647      0.9076365     -0.1062281    0.9162825
+\par     LNNUMBER    0.09524004      0.4335017      0.2196993    0.8279630
+\par -----------------------------------------------------------------------
+\par 
+ 
+\par 
+\par \bREGRESSION DIAGNOSTICS \b0 
+\par MULTICOLLINEARITY CONDITION NUMBER   216.327794
+\par TEST ON NORMALITY OF ERRORS
+\par TEST                  DF          VALUE            PROB
+\par Jarque-Bera            2           3.808231        0.1489544
+\par 
+ 
+ 
+\par \b DIAGNOSTICS FOR HETEROSKEDASTICITY \b0 
+\par RANDOM COEFFICIENTS
+\par TEST                  DF          VALUE            PROB
+\par Breusch-Pagan test     6           18.59499        0.0049052
+\par Koenker-Bassett test   6           10.00523        0.1244320
+\par SPECIFICATION ROBUST TEST
+\par TEST                  DF          VALUE            PROB
+\par White                 27           28.57336        0.3818856
+\par 
+ 
+ 
+\par \b \ul DIAGNOSTICS FOR SPATIAL DEPENDENCE \ulnone \b0 
+\par FOR WEIGHT MATRIX : jjb.gal
+   (row-standardized weights)
+\par \b TEST                          MI/DF      VALUE          PROB \b0 
+\par Moran's I (error)           0.148344     2.2712035      0.0231346
+\par Lagrange Multiplier (lag)       1        2.1627423      0.1413922
+\par Robust LM (lag)                 1        0.8402876      0.3593145
+\par Lagrange Multiplier (error)     1        1.3963047      0.2373433
+\par Robust LM (error)               1        0.0738501      0.7858114
+\par Lagrange Multiplier (SARMA)     2        2.2365923      0.3268362
+\par 
+ 
+ 
+\par \b \ul COEFFICIENTS VARIANCE MATRIX \ulnone \b0 
+\par    CONSTANT       LNGDP      LNROAD    LNPEOPLE     LNAGENT     LNHOTEL 
+
+\par   48.899894   -3.203482   -1.734687   -1.045886    1.372900    0.772939 
+
+\par   -3.203482    0.299294    0.103235   -0.112032   -0.076322    0.163951 
+
+\par   -1.734687    0.103235    0.084294    0.026465   -0.024328   -0.035606 
+
+\par   -1.045886   -0.112032    0.026465    0.501165   -0.138964   -0.577862 
+
+\par    1.372900   -0.076322   -0.024328   -0.138964    0.192132    0.063965 
+
+\par    0.772939    0.163951   -0.035606   -0.577862    0.063965    0.823804 
+
+\par    0.572779   -0.083362   -0.050099    0.163861   -0.082845   -0.219998 
+
+\par 
+ 
+\par    LNNUMBER 
+
+\par    0.572779 
+
+\par   -0.083362 
+
+\par   -0.050099 
+
+\par    0.163861 
+
+\par   -0.082845 
+
+\par   -0.219998 
+
+\par    0.187924 
+
+\par 
+ 
+\par 
+ 
+\par   OBS        LNINCOME        PREDICTED        RESIDUAL     
+\par     1         16.33964        16.25705         0.08259
+\par     2         15.50515        16.02230        -0.51715
+\par     3         16.68697        16.70755        -0.02058
+\par     4         12.23297        13.87098        -1.63801
+\par     5         13.99618        13.81100         0.18518
+\par     6         17.58482        18.10019        -0.51537
+\par     7         17.32260        17.17002         0.15258
+\par     8         17.91911        18.06007        -0.14096
+\par     9         17.04200        16.98740         0.05460
+\par    10         17.05558        16.98095         0.07463
+\par    11         17.61683        17.97221        -0.35538
+\par    12         16.43437        16.46832        -0.03395
+\par    13         16.89533        16.76126         0.13408
+\par    14         16.56245        16.54431         0.01815
+\par    15         16.73301        15.35716         1.37584
+\par    16         16.61887        16.93768        -0.31881
+\par    17         16.60598        16.15707         0.44891
+\par    18         17.68835        17.89575        -0.20740
+\par    19         15.08749        15.32003        -0.23255
+\par    20         16.25515        15.98123         0.27392
+\par    21         17.43772        17.15066         0.28705
+\par    22         16.62765        15.35224         1.27541
+\par    23         13.98356        14.50888        -0.52532
+\par    24         15.36229        15.90163        -0.53934
+\par    25         16.59433        16.55940         0.03493
+\par    26         16.19566        16.50196        -0.30630
+\par    27         16.62850        16.00981         0.61870
+\par    28         16.58533        17.34161        -0.75628
+\par    29         17.24226        16.95136         0.29090
+\par    30         17.31241        17.26802         0.04439
+\par    31         17.30763        16.55208         0.75555
+\par ========================= END OF REPORT ==============================
+\par 
+ 
+ 
+\par \b\f1\fs20
+\par }{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fprq12\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 System;}}
+\viewkind4\uc1\pard\lang1033\f0\fs24 
+\par \b \ul Regression\ulnone \b0 
+\par \b \ul SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES ESTIMATION \ulnone \b0 
+\par Data set            : \b jjb \b0 
+\par Dependent Variable  :\b     LNINCOME \b0  Number of Observations:   31
+\par Mean dependent var  :     16.4342  Number of Variables   :    7
+\par S.D. dependent var  :     1.20927  Degrees of Freedom    :   24 
+ 
+ 
+\par 
+ 
+\par R-squared           :    0.783676  F-statistic           :     14.4908
+\par Adjusted R-squared  :    0.729595  Prob(F-statistic)     :6.12325e-007
+\par Sum squared residual:     9.80648  Log likelihood        :    -26.1475
+\par Sigma-square        :    0.408604  Akaike info criterion :     66.2949
+\par S.E. of regression  :    0.639221  Schwarz criterion     :     76.3329
+\par Sigma-square ML     :    0.316338
+\par S.E of regression ML:     0.56244
+
+ 
+ 
+\par -----------------------------------------------------------------------
+\par \b     Variable    Coefficient     Std.Error    t-Statistic   Probability \b0 
+\par -----------------------------------------------------------------------
+\par     CONSTANT      3.765301       6.992846      0.5384504    0.5952253
+\par        LNGDP    0.03308897      0.5470781     0.06048309    0.9522706
+\par       LNROAD     0.0911127      0.2903338      0.3138206    0.7563697
+\par     LNPEOPLE     0.5057113      0.7079298      0.7143523    0.4819002
+\par      LNAGENT     0.9255921      0.4383292       2.111637    0.0453178
+\par      LNHOTEL   -0.09641647      0.9076365     -0.1062281    0.9162825
+\par     LNNUMBER    0.09524004      0.4335017      0.2196993    0.8279630
+\par -----------------------------------------------------------------------
+\par 
+ 
+\par 
+\par \bREGRESSION DIAGNOSTICS \b0 
+\par MULTICOLLINEARITY CONDITION NUMBER   216.327794
+\par TEST ON NORMALITY OF ERRORS
+\par TEST                  DF          VALUE            PROB
+\par Jarque-Bera            2           3.808231        0.1489544
+\par 
+ 
+ 
+\par \b DIAGNOSTICS FOR HETEROSKEDASTICITY \b0 
+\par RANDOM COEFFICIENTS
+\par TEST                  DF          VALUE            PROB
+\par Breusch-Pagan test     6           18.59499        0.0049052
+\par Koenker-Bassett test   6           10.00523        0.1244320
+\par SPECIFICATION ROBUST TEST
+\par TEST                  DF          VALUE            PROB
+\par White                 27           28.57336        0.3818856
+\par 
+ 
+ 
+\par \b \ul DIAGNOSTICS FOR SPATIAL DEPENDENCE \ulnone \b0 
+\par FOR WEIGHT MATRIX : jjb.gal
+   (row-standardized weights)
+\par \b TEST                          MI/DF      VALUE          PROB \b0 
+\par Moran's I (error)           0.148344     N/A            N/A
+\par Lagrange Multiplier (lag)       1        2.1627423      0.1413922
+\par Robust LM (lag)                 1        0.8402876      0.3593145
+\par Lagrange Multiplier (error)     1        1.3963047      0.2373433
+\par Robust LM (error)               1        0.0738501      0.7858114
+\par Lagrange Multiplier (SARMA)     2        2.2365923      0.3268362
+\par ========================= END OF REPORT ==============================
+\par 
+ 
+ 
+\par \b\f1\fs20
+\par }{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fprq12\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 System;}}
+\viewkind4\uc1\pard\lang1033\f0\fs24 
+\par \b \ul Regression\ulnone \b0 
+\par \b \ul SUMMARY OF OUTPUT: SPATIAL LAG MODEL - MAXIMUM LIKELIHOOD ESTIMATION \ulnone \b0 
+\par Data set            : \b jjb \b0 
+\par Spatial Weight      : \b jjb.gal \b0 
+\par Dependent Variable  :\b     LNINCOME \b0  Number of Observations:   31
+\par Mean dependent var  :     16.4342  Number of Variables   :    8
+\par S.D. dependent var  :     1.20927  Degrees of Freedom    :   23
+\par Lag coeff.   (Rho)  :    0.297308 
+ 
+ 
+\par 
+ 
+\par R-squared           :    0.805924  Log likelihood        :    -24.7991
+\par Sq. Correlation     : -            Akaike info criterion :     65.5981
+\par Sigma-square        :    0.283803  Schwarz criterion     :       77.07
+\par S.E of regression   :    0.532732\par 
+ 
+ 
+\par -----------------------------------------------------------------------
+\par \b     Variable    Coefficient     Std.Error    z-value      Probability \b0 
+\par -----------------------------------------------------------------------
+\par   W_LNINCOME     0.2973083       0.150256       1.978679    0.0478521
+\par     CONSTANT     -2.982932       6.649082     -0.4486232    0.6537036
+\par        LNGDP     0.2548534      0.4646403      0.5484961    0.5833513
+\par       LNROAD     0.1929737      0.2491211      0.7746181    0.4385652
+\par     LNPEOPLE     0.3982115      0.5924507      0.6721429    0.5014926
+\par      LNAGENT      0.545761      0.4291581       1.271701    0.2034793
+\par      LNHOTEL     0.1498302      0.7746808       0.193409    0.8466387
+\par     LNNUMBER     0.1900316      0.3624189      0.5243423    0.6000404
+\par -----------------------------------------------------------------------
+\par 
+ 
+\par \b REGRESSION DIAGNOSTICS \b0 
+\par \b DIAGNOSTICS FOR HETEROSKEDASTICITY \b0 
+\par RANDOM COEFFICIENTS
+\par \b TEST                                     DF     VALUE         PROB \b0 
+\par Breusch-Pagan test                       6        18.4647     0.0051700
+\par 
+ 
+ 
+\par \b \ul DIAGNOSTICS FOR SPATIAL DEPENDENCE \ulnone \b0 
+\par SPATIAL LAG DEPENDENCE FOR WEIGHT MATRIX : \b jjb.gal \b0 
+\par \b TEST                                     DF      VALUE        PROB \b0 
+\par Likelihood Ratio Test                    1       2.696799     0.1005499
+\par ========================= END OF REPORT ==============================
+\par 
+ 
+ 
+\par \b\f1\fs20
+\par }{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fprq12\fcharset0 Courier New;}{\f1\fswiss\fprq2\fcharset0 System;}}
+\viewkind4\uc1\pard\lang1033\f0\fs24 
+\par \b \ul Regression\ulnone \b0 
+\par \b \ul SUMMARY OF OUTPUT: SPATIAL ERROR MODEL - MAXIMUM LIKELIHOOD ESTIMATION \ulnone \b0 
+\par Data set            : \b jjb \b0 
+\par Spatial Weight      : \b jjb.gal \b0 
+\par Dependent Variable  :\b     LNINCOME \b0  Number of Observations:   31
+\par Mean dependent var  :   16.434200  Number of Variables   :    7
+\par S.D. dependent var  :    1.209271  Degrees of Freedom    :   24
+\par Lag coeff. (Lambda) :    0.439706 
+ 
+ 
+\par 
+ 
+\par R-squared           :    0.808911  R-squared (BUSE)      : - 
+\par Sq. Correlation     : -            Log likelihood        :  -25.000241
+\par Sigma-square        :    0.279436  Akaike info criterion :     64.0005
+\par S.E of regression   :    0.528617  Schwarz criterion     :     74.0384
+\par 
+ 
+ 
+\par -----------------------------------------------------------------------
+\par \b     Variable    Coefficient     Std.Error    z-value      Probability \b0 
+\par -----------------------------------------------------------------------
+\par     CONSTANT     2.794633       5.440979      0.5136269    0.6075128
+\par        LNGDP    0.1814974      0.4206042      0.4315159    0.6660934
+\par       LNROAD   0.09620057      0.2529969      0.3802441    0.7037644
+\par     LNPEOPLE    0.4725638      0.5777401      0.8179523    0.4133843
+\par      LNAGENT    0.9842038       0.387646       2.538924    0.0111194
+\par      LNHOTEL   -0.3303919      0.7640107     -0.4324441    0.6654187
+\par     LNNUMBER    0.2269819      0.3813021       0.595281    0.5516555
+\par       LAMBDA    0.4397057      0.1967606       2.234724    0.0254354
+\par -----------------------------------------------------------------------
+\par 
+ 
+\par \b REGRESSION DIAGNOSTICS \b0 
+\par \b DIAGNOSTICS FOR HETEROSKEDASTICITY \b0 
+\par RANDOM COEFFICIENTS
+\par \b TEST                                     DF     VALUE         PROB \b0 
+\par Breusch-Pagan test                       6       17.53945     0.0074924
+\par 
+ 
+ 
+\par \b \ul DIAGNOSTICS FOR SPATIAL DEPENDENCE \ulnone \b0 
+\par SPATIAL ERROR DEPENDENCE FOR WEIGHT MATRIX : \b jjb.gal \b0 
+\par \b TEST                                     DF     VALUE         PROB \b0 
+\par Likelihood Ratio Test                    1       2.294464     0.1298360
+\par ========================= END OF REPORT ==============================
+\par 
+ 
+ 
+\par \b\f1\fs20
+\par }
